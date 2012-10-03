@@ -250,7 +250,6 @@
   <project name="platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField"/>
   <project name="platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam"/>
   <project name="platform/pdk" path="pdk"/>
-  <project name="platform/prebuilt" path="prebuilt"/>
   <project name="platform/prebuilts/eclipse" path="prebuilts/eclipse"/>
   <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6"/>
   <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6"/>
@@ -281,22 +280,25 @@
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
   <project name="device/intel" path="device/intel"/>
-  <project name="hardware/drm_gralloc" path="hardware/drm_gralloc" revision="master"/>
-  <project name="hardware/intel/libcamera" path="hardware/intel/libcamera" revision="master"/>
+  <project name="hardware/drm_gralloc" path="hardware/drm_gralloc"/>
+  <project name="hardware/intel/libcamera" path="hardware/intel/libcamera"/>
   <project name="kernel/intel" path="kernel/intel"/>
   <project name="packages/apps/ReplicaIsland" path="packages/apps/ReplicaIsland"/>
   <project name="packages/apps/apps-for-android" path="packages/apps/apps-for-android"/>
   <project name="platform/bootable/droidboot" path="bootable/droidboot"/>
   <project name="platform/bootable/iago" path="bootable/iago"/>
+  <project name="platform/external/elfutils-redhat" path="external/elfutils-redhat"/>
   <project name="platform/external/hwids" path="external/hwids"/>
   <project name="platform/external/kexec-tools" path="external/kexec-tools"/>
   <project name="platform/external/libs3cjpeg" path="external/libs3cjpeg"/>
-  <project name="platform/external/mesa" path="external/mesa" revision="master"/>
+  <project name="platform/external/mesa" path="external/mesa"/>
   <project name="platform/external/pciutils" path="external/pciutils"/>
+  <project name="platform/external/perf" path="external/perf"/>
   <project name="platform/external/powertop" path="external/powertop"/>
   <project name="platform/external/syslinux" path="external/syslinux"/>
+  <project name="platform/external/systemtap" path="external/systemtap"/>
   <project name="platform/external/tp_smapi" path="external/tp_smapi"/>
   <project name="vendor/intel" path="vendor/intel"/>
-  <project name="fdo/chadversary/drm" path="external/drm" revision="master"/>
+  <project name="fdo/chadversary/drm" path="external/drm"/>
   <project name="fdo/chadversary/xorg.lib.libpciaccess" path="external/libpciaccess"/>
 </manifest>
