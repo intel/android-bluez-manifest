@@ -250,6 +250,7 @@
   <project name="platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField"/>
   <project name="platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam"/>
   <project name="platform/pdk" path="pdk"/>
+  <project name="platform/prebuilt" path="prebuilt"/>
   <project name="platform/prebuilts/eclipse" path="prebuilts/eclipse"/>
   <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6"/>
   <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6"/>
@@ -289,9 +290,12 @@
   <project name="platform/bootable/iago" path="bootable/iago"/>
   <project name="platform/external/elfutils-redhat" path="external/elfutils-redhat"/>
   <project name="platform/external/hwids" path="external/hwids"/>
+  <project name="platform/external/iniparser" path="external/iniparser"/>
   <project name="platform/external/kexec-tools" path="external/kexec-tools"/>
   <project name="platform/external/libs3cjpeg" path="external/libs3cjpeg"/>
   <project name="platform/external/mesa" path="external/mesa"/>
+  <project name="platform/external/ntfs-3g" path="external/ntfs-3g"/>
+  <project name="platform/external/parted" path="external/parted"/>
   <project name="platform/external/pciutils" path="external/pciutils"/>
   <project name="platform/external/perf" path="external/perf"/>
   <project name="platform/external/powertop" path="external/powertop"/>
