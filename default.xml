@@ -7,34 +7,41 @@
   <default revision="master"
            remote="android-ia"
            sync-j="4"/>
-  
+
   <project name="device/common" path="device/common"/>
+  <project name="device/generic/common" path="device/generic/common"/>
   <project name="device/generic/goldfish" path="device/generic/goldfish"/>
-  <project name="device/google/accessory/arduino" path="device/google/accessory/arduino"/>
-  <project name="device/google/accessory/demokit" path="device/google/accessory/demokit"/>
+  <project name="device/generic/mips" path="device/generic/mips"/>
+  <project name="device/generic/x86" path="device/generic/x86"/>
+  <project groups="device" name="device/google/accessory/arduino" path="device/google/accessory/arduino"/>
+  <project groups="device" name="device/google/accessory/demokit" path="device/google/accessory/demokit"/>
   <project name="device/sample" path="device/sample"/>
   <project name="platform/abi/cpp" path="abi/cpp"/>
   <project name="platform/bionic" path="bionic"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller"/>
   <project name="platform/bootable/recovery" path="bootable/recovery"/>
-  <project name="platform/build" path="build"> <copyfile dest="Makefile" src="core/root.mk"/> </project>
+  <project name="platform/build" path="build">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
   <project name="platform/cts" path="cts"/>
   <project name="platform/dalvik" path="dalvik"/>
   <project name="platform/development" path="development"/>
   <project name="platform/docs/source.android.com" path="docs/source.android.com"/>
   <project name="platform/external/aac" path="external/aac"/>
+  <project name="platform/external/android-clat" path="external/android-clat"/>
   <project name="platform/external/android-mock" path="external/android-mock"/>
+  <project name="platform/external/ant-glob" path="external/ant-glob"/>
   <project name="platform/external/antlr" path="external/antlr"/>
   <project name="platform/external/apache-harmony" path="external/apache-harmony"/>
   <project name="platform/external/apache-http" path="external/apache-http"/>
+  <project name="platform/external/apache-qp" path="external/apache-qp"/>
   <project name="platform/external/apache-xml" path="external/apache-xml"/>
+  <project name="platform/external/arduino" path="external/arduino"/>
   <project name="platform/external/astl" path="external/astl"/>
   <project name="platform/external/bison" path="external/bison"/>
   <project name="platform/external/blktrace" path="external/blktrace"/>
-  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez"/>
-  <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib"/>
-  <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump"/>
+  <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid"/>
   <project name="platform/external/bouncycastle" path="external/bouncycastle"/>
   <project name="platform/external/bsdiff" path="external/bsdiff"/>
   <project name="platform/external/bzip2" path="external/bzip2"/>
@@ -60,6 +67,7 @@
   <project name="platform/external/esd" path="external/esd"/>
   <project name="platform/external/expat" path="external/expat"/>
   <project name="platform/external/eyes-free" path="external/eyes-free"/>
+  <project name="platform/external/fat32lib" path="external/fat32lib"/>
   <project name="platform/external/fdlibm" path="external/fdlibm"/>
   <project name="platform/external/flac" path="external/flac"/>
   <project name="platform/external/freetype" path="external/freetype"/>
@@ -79,6 +87,7 @@
   <project name="platform/external/iproute2" path="external/iproute2"/>
   <project name="platform/external/ipsec-tools" path="external/ipsec-tools"/>
   <project name="platform/external/iptables" path="external/iptables"/>
+  <project name="platform/external/jack" path="external/jack"/>
   <project name="platform/external/javasqlite" path="external/javasqlite"/>
   <project name="platform/external/javassist" path="external/javassist"/>
   <project name="platform/external/jdiff" path="external/jdiff"/>
@@ -90,19 +99,24 @@
   <project name="platform/external/jsr305" path="external/jsr305"/>
   <project name="platform/external/junit" path="external/junit"/>
   <project name="platform/external/kernel-headers" path="external/kernel-headers"/>
+  <project name="platform/external/libcap-ng" path="external/libcap-ng"/>
   <project name="platform/external/libffi" path="external/libffi"/>
   <project name="platform/external/libgsm" path="external/libgsm"/>
   <project name="platform/external/liblzf" path="external/liblzf"/>
   <project name="platform/external/libmtp" path="external/libmtp"/>
+  <project name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
   <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
   <project name="platform/external/libnl-headers" path="external/libnl-headers"/>
+  <project name="platform/external/libogg" path="external/libogg"/>
   <project name="platform/external/libpcap" path="external/libpcap"/>
   <project name="platform/external/libphonenumber" path="external/libphonenumber"/>
   <project name="platform/external/libpng" path="external/libpng"/>
+  <project name="platform/external/libppp" path="external/libppp"/>
   <project name="platform/external/libselinux" path="external/libselinux"/>
   <project name="platform/external/libsepol" path="external/libsepol"/>
   <project name="platform/external/libusb" path="external/libusb"/>
   <project name="platform/external/libusb-compat" path="external/libusb-compat"/>
+  <project name="platform/external/libvorbis" path="external/libvorbis"/>
   <project name="platform/external/libvpx" path="external/libvpx"/>
   <project name="platform/external/libxml2" path="external/libxml2"/>
   <project name="platform/external/libxslt" path="external/libxslt"/>
@@ -116,6 +130,7 @@
   <project name="platform/external/mesa3d" path="external/mesa3d"/>
   <project name="platform/external/mksh" path="external/mksh"/>
   <project name="platform/external/mockwebserver" path="external/mockwebserver"/>
+  <project name="platform/external/mp4parser" path="external/mp4parser"/>
   <project name="platform/external/mtpd" path="external/mtpd"/>
   <project name="platform/external/naver-fonts" path="external/naver-fonts"/>
   <project name="platform/external/netcat" path="external/netcat"/>
@@ -123,6 +138,7 @@
   <project name="platform/external/neven" path="external/neven"/>
   <project name="platform/external/nist-sip" path="external/nist-sip"/>
   <project name="platform/external/oauth" path="external/oauth"/>
+  <project name="platform/external/okhttp" path="external/okhttp"/>
   <project name="platform/external/opencv" path="external/opencv"/>
   <project name="platform/external/openfst" path="external/openfst"/>
   <project name="platform/external/openssh" path="external/openssh"/>
@@ -155,6 +171,7 @@
   <project name="platform/external/tcpdump" path="external/tcpdump"/>
   <project name="platform/external/tinyalsa" path="external/tinyalsa"/>
   <project name="platform/external/tinyxml" path="external/tinyxml"/>
+  <project name="platform/external/tinyxml2" path="external/tinyxml2"/>
   <project name="platform/external/tremolo" path="external/tremolo"/>
   <project name="platform/external/v8" path="external/v8"/>
   <project name="platform/external/valgrind" path="external/valgrind"/>
@@ -164,6 +181,7 @@
   <project name="platform/external/wpa_supplicant_6" path="external/wpa_supplicant_6"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform/external/xmlwriter" path="external/xmlwriter"/>
+  <project name="platform/external/xmp_toolkit" path="external/xmp_toolkit"/>
   <project name="platform/external/yaffs2" path="external/yaffs2"/>
   <project name="platform/external/zlib" path="external/zlib"/>
   <project name="platform/external/zxing" path="external/zxing"/>
@@ -171,6 +189,7 @@
   <project name="platform/frameworks/base" path="frameworks/base"/>
   <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc"/>
   <project name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader"/>
+  <project name="platform/frameworks/compile/llvm-ndk-cc" path="frameworks/compile/llvm-ndk-cc"/>
   <project name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker"/>
   <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang"/>
   <project name="platform/frameworks/ex" path="frameworks/ex"/>
@@ -178,9 +197,13 @@
   <project name="platform/frameworks/ml" path="frameworks/ml"/>
   <project name="platform/frameworks/native" path="frameworks/native"/>
   <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar"/>
+  <project name="platform/frameworks/opt/carddav" path="frameworks/opt/carddav"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji"/>
   <project name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon"/>
   <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon"/>
+  <project name="platform/frameworks/opt/mms" path="frameworks/opt/mms"/>
+  <project name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer"/>
+  <project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony"/>
   <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard"/>
   <project name="platform/frameworks/rs" path="frameworks/rs"/>
   <project name="platform/frameworks/support" path="frameworks/support"/>
@@ -221,6 +244,7 @@
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox"/>
   <project name="platform/packages/apps/Settings" path="packages/apps/Settings"/>
+  <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService"/>
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder"/>
@@ -241,6 +265,9 @@
   <project name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider"/>
   <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider"/>
   <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider"/>
+  <project name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic"/>
+  <project name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable"/>
+  <project name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView"/>
   <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic"/>
   <project name="platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4"/>
   <project name="platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral"/>
@@ -250,23 +277,24 @@
   <project name="platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField"/>
   <project name="platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam"/>
   <project name="platform/pdk" path="pdk"/>
-  <project name="platform/prebuilt" path="prebuilt"/>
+  <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1"/>
+  <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.2" path="prebuilts/clang/darwin-x86/3.2"/>
+  <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.1" path="prebuilts/clang/linux-x86/3.1"/>
+  <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.2" path="prebuilts/clang/linux-x86/3.2"/>
   <project name="platform/prebuilts/eclipse" path="prebuilts/eclipse"/>
-  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6"/>
-  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6"/>
-  <project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3"/>
-  <project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6"/>
-  <project name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3"/>
-  <project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6"/>
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6"/>
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6"/>
-  <project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3"/>
-  <project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6"/>
-  <project name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3"/>
-  <project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6"/>
+  <project groups="notdefault,eclipse" name="platform/prebuilts/eclipse-build-deps" path="prebuilts/eclipse-build-deps"/>
+  <project groups="notdefault,eclipse" name="platform/prebuilts/eclipse-build-deps-sources" path="prebuilts/eclipse-build-deps-sources"/>
+  <project groups="darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6"/>
+  <project groups="darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6"/>
+  <project groups="darwin,mips" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6"/>
+  <project groups="darwin,x86" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6"/>
+  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6"/>
+  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6"/>
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3"/>
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6"/>
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6"/>
+  <project groups="linux,mips" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6"/>
+  <project groups="linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6"/>
   <project name="platform/prebuilts/misc" path="prebuilts/misc"/>
   <project name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
   <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
@@ -280,8 +308,10 @@
   <project name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
+  <project groups="toolsbuild" name="platform/tools/build" path="tools/build"/>
   <project name="device/intel" path="device/intel"/>
   <project name="hardware/drm_gralloc" path="hardware/drm_gralloc"/>
+  <project name="hardware/intel/hwcomposer" path="hardware/intel/hwcomposer"/>
   <project name="hardware/intel/libcamera" path="hardware/intel/libcamera"/>
   <project name="kernel/intel" path="kernel/intel"/>
   <project name="packages/apps/ReplicaIsland" path="packages/apps/ReplicaIsland"/>
@@ -291,7 +321,6 @@
   <project name="platform/external/elfutils-redhat" path="external/elfutils-redhat"/>
   <project name="platform/external/hwids" path="external/hwids"/>
   <project name="platform/external/iniparser" path="external/iniparser"/>
-  <project name="platform/external/kexec-tools" path="external/kexec-tools"/>
   <project name="platform/external/libs3cjpeg" path="external/libs3cjpeg"/>
   <project name="platform/external/mesa" path="external/mesa"/>
   <project name="platform/external/ntfs-3g" path="external/ntfs-3g"/>
