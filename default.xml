@@ -19,7 +19,6 @@
   <project name="platform/abi/cpp" path="abi/cpp"/>
   <project name="platform/bionic" path="bionic"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
-  <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller"/>
   <project name="platform/bootable/recovery" path="bootable/recovery"/>
   <project name="platform/build" path="build">
     <copyfile dest="Makefile" src="core/root.mk"/>
@@ -77,7 +76,6 @@
   <project name="platform/external/genext2fs" path="external/genext2fs"/>
   <project name="platform/external/giflib" path="external/giflib"/>
   <project name="platform/external/google-diff-match-patch" path="external/google-diff-match-patch"/>
-  <project name="platform/external/grub" path="external/grub"/>
   <project name="platform/external/gtest" path="external/gtest"/>
   <project name="platform/external/guava" path="external/guava"/>
   <project name="platform/external/hamcrest" path="external/hamcrest"/>
@@ -295,6 +293,7 @@
   <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6"/>
   <project groups="linux,mips" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6"/>
   <project groups="linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6"/>
+  <project groups="linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7"/>
   <project name="platform/prebuilts/misc" path="prebuilts/misc"/>
   <project name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
   <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
@@ -314,6 +313,7 @@
   <project name="hardware/intel/hwcomposer" path="hardware/intel/hwcomposer"/>
   <project name="hardware/intel/libcamera" path="hardware/intel/libcamera"/>
   <project name="kernel/intel" path="kernel/intel"/>
+  <project name="packages/apps/AndroidTerm" path="packages/apps/AndroidTerm"/>
   <project name="packages/apps/ReplicaIsland" path="packages/apps/ReplicaIsland"/>
   <project name="packages/apps/apps-for-android" path="packages/apps/apps-for-android"/>
   <project name="platform/bootable/droidboot" path="bootable/droidboot"/>
@@ -321,19 +321,20 @@
   <project name="platform/external/efibootmgr" path="external/efibootmgr"/>
   <project name="platform/external/elfutils-redhat" path="external/elfutils-redhat"/>
   <project name="platform/external/gnu-efi" path="external/gnu-efi"/>
+  <project name="platform/external/gummiboot" path="external/gummiboot"/>
   <project name="platform/external/hwids" path="external/hwids"/>
   <project name="platform/external/iniparser" path="external/iniparser"/>
   <project name="platform/external/libs3cjpeg" path="external/libs3cjpeg"/>
   <project name="platform/external/mesa" path="external/mesa"/>
   <project name="platform/external/ntfs-3g" path="external/ntfs-3g"/>
-  <project name="platform/external/parted" path="external/parted"/>
   <project name="platform/external/pciutils" path="external/pciutils"/>
   <project name="platform/external/perf" path="external/perf"/>
   <project name="platform/external/powertop" path="external/powertop"/>
-  <project name="platform/external/syslinux" path="external/syslinux"/>
   <project name="platform/external/systemtap" path="external/systemtap"/>
   <project name="platform/external/tp_smapi" path="external/tp_smapi"/>
+  <project name="vendor/atheros" path="vendor/atheros"/>
   <project name="vendor/intel" path="vendor/intel"/>
+  <project name="vendor/realtek" path="vendor/realtek"/>
   <project name="fdo/chadversary/drm" path="external/drm"/>
   <project name="fdo/chadversary/xorg.lib.libpciaccess" path="external/libpciaccess"/>
 </manifest>
