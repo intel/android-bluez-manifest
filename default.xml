@@ -247,9 +247,11 @@
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
+  <project name="platform/packages/apps/Superuser" path="packages/apps/Superuser"/>
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor"/>
   <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer"/>
+  <project name="platform/packages/apps/Widgets" path="packages/apps/Widgets"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
   <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
@@ -330,8 +332,8 @@
   <project name="platform/external/pciutils" path="external/pciutils"/>
   <project name="platform/external/perf" path="external/perf"/>
   <project name="platform/external/powertop" path="external/powertop"/>
+  <project name="platform/external/syslinux" path="external/syslinux"/>
   <project name="platform/external/systemtap" path="external/systemtap"/>
-  <project name="platform/external/tp_smapi" path="external/tp_smapi"/>
   <project name="vendor/atheros" path="vendor/atheros"/>
   <project name="vendor/intel" path="vendor/intel"/>
   <project name="vendor/realtek" path="vendor/realtek"/>
