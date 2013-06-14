@@ -58,8 +58,6 @@
   <project name="platform/external/dropbear" path="external/dropbear"/>
   <project name="platform/external/e2fsprogs" path="external/e2fsprogs"/>
   <project name="platform/external/easymock" path="external/easymock"/>
-  <project name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder"/>
-  <project name="platform/external/eclipse-windowbuilder" path="external/eclipse-windowbuilder"/>
   <project name="platform/external/elfutils" path="external/elfutils"/>
   <project name="platform/external/embunit" path="external/embunit"/>
   <project name="platform/external/emma" path="external/emma"/>
@@ -321,11 +319,13 @@
   <project name="platform/bootable/droidboot" path="bootable/droidboot"/>
   <project name="platform/bootable/iago" path="bootable/iago"/>
   <project name="platform/external/efibootmgr" path="external/efibootmgr"/>
+  <project name="platform/external/efitools" path="external/efitools"/>
   <project name="platform/external/elfutils-redhat" path="external/elfutils-redhat"/>
   <project name="platform/external/gnu-efi" path="external/gnu-efi"/>
   <project name="platform/external/gummiboot" path="external/gummiboot"/>
   <project name="platform/external/hwids" path="external/hwids"/>
   <project name="platform/external/iniparser" path="external/iniparser"/>
+  <project name="platform/external/libncurses" path="external/libncurses"/>
   <project name="platform/external/libs3cjpeg" path="external/libs3cjpeg"/>
   <project name="platform/external/mesa" path="external/mesa"/>
   <project name="platform/external/ntfs-3g" path="external/ntfs-3g"/>
@@ -334,6 +334,7 @@
   <project name="platform/external/powertop" path="external/powertop"/>
   <project name="platform/external/syslinux" path="external/syslinux"/>
   <project name="platform/external/systemtap" path="external/systemtap"/>
+  <project name="platform/external/uefi_shim" path="external/uefi_shim"/>
   <project name="vendor/atheros" path="vendor/atheros"/>
   <project name="vendor/intel" path="vendor/intel"/>
   <project name="vendor/realtek" path="vendor/realtek"/>
