@@ -277,7 +277,6 @@
   <project groups="darwin" name="platform_prebuilts_clang_darwin-x86_3.2" path="prebuilts/clang/darwin-x86/3.2"/>
   <project groups="linux" name="platform_prebuilts_clang_linux-x86_3.1" path="prebuilts/clang/linux-x86/3.1"/>
   <project groups="linux" name="platform_prebuilts_clang_linux-x86_3.2" path="prebuilts/clang/linux-x86/3.2"/>
-  <project name="platform_prebuilts_eclipse" path="prebuilts/eclipse"/>
   <project groups="notdefault,eclipse" name="platform_prebuilts_eclipse-build-deps" path="prebuilts/eclipse-build-deps"/>
   <project groups="notdefault,eclipse" name="platform_prebuilts_eclipse-build-deps-sources" path="prebuilts/eclipse-build-deps-sources"/>
   <project groups="darwin,arm" name="platform_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6"/>
