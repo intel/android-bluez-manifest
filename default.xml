@@ -36,6 +36,7 @@
   <project path="device/intel/baytrail" name="vendor_intel_baytrail"/>
   <project path="device/intel/common" name="vendor_intel_common"/>
   <project path="device/intel/haswell" name="device_intel_haswell"/>
+  <project path="device/intel/ivybridge" name="device_intel_ivybridge"/>
   <project path="device/intel/mixins" name="device_intel_mixins"/>
   <project path="device/intel/recovery_plugins" name="platform_vendor_intel_recovery_plugins"/>
   <project path="device/sample" name="device_sample" groups="pdk"/>
