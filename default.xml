@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote name="android-ia" fetch="."/>
+  <remote name="android-bluez" fetch="."/>
+  <remote name="android-ia" fetch="https://github.com/android-ia/"/>
 
   <default remote="android-ia" revision="master" sync-j="4"/>
 

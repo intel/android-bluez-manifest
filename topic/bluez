@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="default.xml" />
+
+  <remote name="korg"
+    fetch="git://git.kernel.org/pub/scm/bluetooth/" />
+
+  <project path="external/bluetooth/glib" name="android-bluez-glib.git"
+    remote="android-bluez" revision="master" />
+
+  <project path="external/bluetooth/sbc" name="sbc.git"
+    remote="korg" revision="master" />
+
+  <project path="external/bluetooth/bluez" name="bluez.git"
+    remote="korg" revision="master" />
+
+  <!-- FIXME Needed untill bionic is updated from HEAD -->
+  <remove-project name="platform_bionic" />
+  <project path="bionic" name="android-bluez-bionic.git"
+    remote="android-bluez" revision="master" />
+
+  <remove-project name="device_intel_haswell" />
+  <project path="device/intel/haswell" name="android-bluez-device-intel-haswell.git"
+    remote="android-bluez" revision="master" />
+
+  <remove-project name="device_intel_mixins" />
+  <project path="device/intel/mixins" name="android-bluez-device-intel-mixins.git"
+    remote="android-bluez" revision="master" />
+
+  <remove-project name="platform_external_bluetooth_bluedroid" />
+
+</manifest>
